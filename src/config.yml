@@ -1,0 +1,14 @@
+Settings:
+  Effects:
+    # Set true to play effects at horse, like flames etc, you can find list of effects here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Effect.html
+    playEffect: true 
+    # Name of effect
+    effect: MOBSPAWNER_FLAMES
+    effectAmount: 5
+  Disco:
+    # Enter the number of seconds how often you want to repeat disco
+    repeatEvery: 2
+    # Set to true if you want to add armor to disco too
+    armor: true
+    # Only players with this permission can activate disco on their horses
+    permission: 'discohorse.vip'
